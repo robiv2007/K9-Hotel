@@ -1,10 +1,12 @@
 .App {
   text-align: center;
+  background-color: #48f348;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 25vmin;
   pointer-events: none;
+  margin-top: 60px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,15 +16,16 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ 
+  min-height:40px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: red;
 }
+
 
 .App-link {
   color: #61dafb;
@@ -36,3 +39,25 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.boneButton{
+  margin-top: 100px;
+  height: 100px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+ 
+}
+.welcomeText{
+  margin-top: 10px;
+ 
+}
+.mainScreen{
+  min-height: 100vh;
+}
+
+
+
