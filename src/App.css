@@ -1,6 +1,8 @@
 .App {
   text-align: center;
-  background-color: #48f348;
+  /* background-color: #48f348; */
+  background-image: url('grass.jpg');
+ 
 }
 
 .App-logo {
@@ -59,5 +61,22 @@
   min-height: 100vh;
 }
 
+.registerList{
+  display: grid;
+  padding: 2em;
+  grid-template-columns: repeat(3, 1fr);
+  
+
+}
+.dogImage{
+  width: 180px;
+  height: 300px;
+  object-fit: cover;
+  margin: 5px;
+}
+
+.dogImage:hover{
+  transform: scale(1.2, 1.2);
+}
 
 

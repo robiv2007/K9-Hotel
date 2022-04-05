@@ -1,14 +1,18 @@
+import { Link } from 'react-router-dom';
 import bone from './bone.png'
 import logo from './logo.png';
 
 
- const Welcome = ({nextScreen}) => {
+ const Welcome = () => {
 
     return(
         <section>
         <img src={logo} className="App-logo" alt="logo" />
         <br />
-        <img className ='boneButton'src={bone} onClick={nextScreen}></img>
+        <Link to='/register'>
+           <img className ='boneButton'src={bone}></img>
+        </Link>
+       
             </section>
           
     )
