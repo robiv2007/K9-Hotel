@@ -1,31 +1,41 @@
-const DogInfo = (currentDog) => {
-    
-   
-     console.log('DOG VALUE',currentDog)
-     //console.log(currentDog.owner.name)
-     
-    return(
+
+import { Link, useNavigate, useParams } from "react-router-dom";
+
+const DogInfo = ({ dogInfo }) => {
+
+
+    let navigate = useNavigate()
+    const params = useParams()
+    let currentDogInfo = null
+    console.log("Params", params.chipNumber)
+    console.log("dog info ", dogInfo)
+    dogInfo.forEach(dog => {
+        if (params.chipNumber == dog.chipNumber) {
+            console.log('dogChip', dog.chipNumber)
+            currentDogInfo = dog
+        }
+    });
+
+    console.log('Current dog value', currentDogInfo)
+    return (
         <section>
             <div>
-               
-                <img src={currentDog.currentDog.img} className="dogProfile"></img>
-          
+                <img src={currentDogInfo.img} className="dogProfile"></img>
             </div>
             <div>
-            <h1> Name: {currentDog.currentDog.name}</h1>
-            <h1> Age:  {currentDog.currentDog.age}</h1>
-            <h1> Breed: {currentDog.currentDog.breed}</h1>
-            <h1> Chip Number : {currentDog.currentDog.chipNumber}</h1>
-            <h1> Owner Name : {currentDog.currentDog.owner.name}</h1>
-            <h1> Owner Last Name : {currentDog.currentDog.owner.lastName}</h1>
-            <h1> Phone number : {currentDog.currentDog.owner.phoneNumber}</h1>
-            
-
+                <h1> Name: {currentDogInfo.name}</h1>
+                <h1> Age:  {currentDogInfo.age}</h1>
+                <h1> Breed: {currentDogInfo.breed}</h1>
+                <h1> Chip Number : {currentDogInfo.chipNumber}</h1>
+                <h1> Owner Name : {currentDogInfo.owner.name}</h1>
+                <h1> Owner Last Name : {currentDogInfo.owner.lastName}</h1>
+                <h1> Phone number : {currentDogInfo.owner.phoneNumber}</h1>
             </div>
-           
-            </section>
+
+        </section>
     )
 }
-    
 
- export default DogInfo;
+
+
+export default DogInfo;

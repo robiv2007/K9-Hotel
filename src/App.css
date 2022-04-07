@@ -1,8 +1,9 @@
 .App {
   text-align: center;
+  background-position: top-center;
   /* background-color: #48f348; */
-  background-image: url('grass.jpg');
- 
+  background-image: url('wallpaper.jpg');
+
 }
 
 .App-logo {
@@ -18,16 +19,16 @@
 }
 
 .App-header {
- 
-  min-height:40px;
+  /* min-height:40px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 2vmin); */
   color: red;
-}
+  grid-area: "App-header";
 
+}
 
 .App-link {
   color: #61dafb;
@@ -42,41 +43,22 @@
   }
 }
 
-
-
 .boneButton{
   margin-top: 100px;
   height: 100px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
  
 }
 .welcomeText{
   margin-top: 10px;
+  border-color: black;
+  border: 2px;
  
 }
 .mainScreen{
   min-height: 100vh;
-}
-
-.registerList{
-  display: grid;
-  padding: 2em;
-  grid-template-columns: repeat(3, 1fr);
-  
-
-}
-.dogImage{
-  width: 180px;
-  height: 300px;
-  object-fit: cover;
-  margin: 5px;
-}
-
-.dogImage:hover{
-  transform: scale(1.2, 1.2);
 }
 
 

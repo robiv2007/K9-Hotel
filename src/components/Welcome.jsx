@@ -3,19 +3,19 @@ import bone from './bone.png'
 import logo from './logo.png';
 
 
- const Welcome = () => {
+const Welcome = () => {
 
-    return(
-        <section>
-        <img src={logo} className="App-logo" alt="logo" />
-        <br />
-        <Link to='/register'>
-           <img className ='boneButton'src={bone}></img>
-        </Link>
-       
-            </section>
-          
-    )
- }
+   return (
+      <section>
+         <img src={logo} className="App-logo" alt="logo" />
+         <br />
+         <Link to='/register'>
+            <img className='boneButton' src={bone}></img>
+         </Link>
 
- export default Welcome;
+      </section>
+
+   )
+}
+
+export default Welcome;
