@@ -4,44 +4,105 @@
     object-fit: cover;
     margin: 5px;
     align-items:center;
+    border-radius: 15px;
   }
-  .link{
+.link{
     width: 190px;
+    text-decoration: none;
   }
-  .card {
-    grid-template-columns: repeat(auto-fill,minmax(160px, 1fr));
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+.card {
+    box-shadow: 3px 8px 8px 3px rgba(0.5,0.5,0.5,0.5);
     transition: 0.3s;
-    border-radius: 5px; 
-    margin: 10px;
+    border-radius: 20px; 
+    margin: 40px;
     padding: 10px;
     width: fit-content;
+    display: flex;
+    flex-flow: column; 
+    justify-content: center;
+    align-items: center; 
   }
-  img {
+.img {
     border-radius: 5px 5px 0 0;
   }
-  .card:hover{
+.card:hover{
     transform: scale(1.1,1.1);
   }
-  .registerList{
-   display: grid;
-   height: 100vh;
-   grid-template-columns: 1fr 1fr 1fr;
-   grid-template-rows: 1.5fr;
-   grid-template-areas: "card";
-   grid-gap: 0.2rem;
-  
+.registerList{
+    display: flex;
+    justify-content: center; 
+    flex-flow: row wrap; 
   }
 
-  @media only screen and (max-width:500px){
-    .registerList{
-      grid-template-columns: 1fr;
-      grid-template-rows: 2fr;
-      grid-template-areas: "registerList " ;
-      align-items: center;
-    }
+ li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+.dogName{
+    display: flex;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    justify-content: center;
+    padding: 5px;
   }
 
-  
+.dogIn{
+    display: flex;
+    background-color: green;
+    border-radius: 20px;
+    justify-content: center;
+    padding: 5px;
+    color: white;
+  }
+
+.dogOut{
+    display: flex;
+    background-color: red;
+    border-radius: 20px;
+    justify-content: center;
+    padding: 5px;
+    color: white;
+  }
+.registerTitle{
+  /* display: flex;
+  justify-content: center; */
+  padding: 3px;
+  font-size: 30px;
+  background-color: white;
+  color: rgb(41, 4, 4);
+  border-radius: 25px;
+
+}
+.statusButton{
+  display: flex;
+  justify-content: center;
+  font-size: medium;
+  border: 3px solid green;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+.statusButton:hover{
+  background-color: green;
+  transform: scale(1.1);
+  color: white;
+ 
+}
+
+.divStatusButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registerTitleDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
   
   

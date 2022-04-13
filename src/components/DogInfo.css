@@ -1,0 +1,58 @@
+
+/* .divAllInfo{
+    display: flex;
+    display: grid;
+    height: 100vh;
+    grid-template-columns:  1fr 1fr;
+    grid-template-rows:  1fr 1fr;
+    grid-template-areas: 
+    "dogProfilePic dogInfo";
+    place-items:center;  
+}
+.dogProfilePic{
+    grid-area: dogProfilePic;
+  
+}
+
+.dogInfo{
+    grid-area: dogInfo;
+   
+}
+
+@media only screen and (max-width: 600px){
+    .divAllInfo{
+        grid-template-columns:1fr;
+        grid-template-rows: 1fr ;
+        grid-template-areas: 
+        "dogProfilePic"
+        "dogInfo";
+    }
+    
+} */
+
+.dogInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    flex-flow:wrap; 
+} 
+ .dogProfilePic{
+    display: flex;
+    flex-flow: column; 
+    align-items: center;
+} 
+
+.dogData{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: green;
+    font-size: 15px;
+    padding: 5px;
+}
+.divAllInfo{
+    display: flex;
+   flex-direction: column; 
+   flex-wrap: wrap;
+}
+

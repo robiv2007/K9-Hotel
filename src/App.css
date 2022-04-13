@@ -1,33 +1,20 @@
 .App {
-  text-align: center;
-  background-position: top-center;
-  /* background-color: #48f348; */
   background-image: url('wallpaper.jpg');
-
-}
-
-.App-logo {
-  height: 25vmin;
-  pointer-events: none;
-  margin-top: 60px;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  width: 100%;
+  height: 100%;
 }
 
 .App-header {
-  /* min-height:40px;
+  min-height: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin); */
+  font-size: calc(10px + 2vmin);
   color: red;
-  grid-area: "App-header";
-
 }
 
 .App-link {
@@ -36,29 +23,29 @@
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+    transform: rotateY(0deg);
   }
+
   to {
-    transform: rotate(360deg);
+    transform: rotateY(360deg);
+
   }
 }
 
-.boneButton{
-  margin-top: 100px;
-  height: 100px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
- 
-}
-.welcomeText{
-  margin-top: 10px;
+.welcomeText {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 50px;
+  background-color: white;
+  border-style: dashed;
+  border-radius: 10px;
   border-color: black;
-  border: 2px;
- 
+  padding-left: 10px;
+  padding-right: 10px;
+  text-shadow: 3px 3px black;
 }
-.mainScreen{
+
+.mainScreen {
   min-height: 100vh;
+  min-width: 100vw;
 }
-
-

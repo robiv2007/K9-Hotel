@@ -6,14 +6,16 @@ import logo from './logo.png';
 const Welcome = () => {
 
    return (
-      <section>
-         <img src={logo} className="App-logo" alt="logo" />
-         <br />
-         <Link to='/register'>
-            <img className='boneButton' src={bone}></img>
-         </Link>
-
-      </section>
+      <div>
+         <div className='welcomeSection'>
+            <img src={logo} className="App-logo" alt="logo" />
+         </div>
+         <div className='buttonDiv'>
+            <Link to='/register'>
+               <img className='boneButton' src={bone}></img>
+            </Link>
+         </div>
+      </div>
 
    )
 }
