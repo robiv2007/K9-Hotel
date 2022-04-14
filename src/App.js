@@ -14,7 +14,7 @@ import { HashRouter as Router, Link, Route, Routes } from 'react-router-dom'
 function App() {
   const [dogs, setDogs] = useState([])
 
- 
+
   const fetchData = async () => {
 
     const response = await fetch("https://api.jsonbin.io/b/6242d7f5fdd14a0f467a7fc9");
@@ -33,11 +33,11 @@ function App() {
       <header className="App-header">
         <h1 className='welcomeText'>K9 Hotel</h1>
       </header>
-      
+
       <main className='mainScreen'>
         <Router>
-        <NavBar/>
-          
+          <NavBar />
+
           <Routes>
             <Route exact path='/' element={<Welcome />} />
             <Route exact path='/register' element={<Register dogInfo={dogs} />} />

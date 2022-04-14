@@ -7,23 +7,23 @@ const NavBar = () => {
         <div className="list">
             <ul className="navbar">
                 <li>
-             
+
                 </li>
                 <li>
-                    <Link to="/">Start page</Link>
+                    <Link to="/">Start</Link>
                 </li>
                 <li>
-                    <Link to="/register">Dogs List</Link>
+                    <Link to="/register">Dogs</Link>
                 </li>
                 <li>
-                    <Link to="/dogInfo/:chipNumber">Dog Info</Link>
+                    <Link to="/dogInfo/:chipNumber">Info</Link>
                 </li>
 
             </ul>
 
         </div>
     );
-    
+
 }
 
 export default NavBar

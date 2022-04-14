@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { useEffect } from "react";
 import { createSearchParams, Link, useParams, useNavigate } from "react-router-dom";
 
 const Register = ({ dogInfo }) => {

@@ -1,73 +1,80 @@
-.dogImage{
-    width: 180px;
-    height: 300px;
-    object-fit: cover;
-    margin: 5px;
-    align-items:center;
-    border-radius: 15px;
-  }
-.link{
-    width: 190px;
-    text-decoration: none;
-  }
+.dogImage {
+  width: 180px;
+  height: 300px;
+  object-fit: cover;
+  margin: 5px;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.link {
+  width: 190px;
+  text-decoration: none;
+}
+
 .card {
-    box-shadow: 3px 8px 8px 3px rgba(0.5,0.5,0.5,0.5);
-    transition: 0.3s;
-    border-radius: 20px; 
-    margin: 40px;
-    padding: 10px;
-    width: fit-content;
-    display: flex;
-    flex-flow: column; 
-    justify-content: center;
-    align-items: center; 
-  }
+  box-shadow: 3px 8px 8px 3px rgba(0.5, 0.5, 0.5, 0.5);
+  transition: 0.3s;
+  border-radius: 20px;
+  margin: 40px;
+  padding: 10px;
+  width: fit-content;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
 .img {
-    border-radius: 5px 5px 0 0;
-  }
-.card:hover{
-    transform: scale(1.1,1.1);
-  }
-.registerList{
-    display: flex;
-    justify-content: center; 
-    flex-flow: row wrap; 
-  }
+  border-radius: 5px 5px 0 0;
+}
 
- li {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-.dogName{
-    display: flex;
-    background-color: black;
-    color: white;
-    border-radius: 20px;
-    justify-content: center;
-    padding: 5px;
-  }
+.card:hover {
+  transform: scale(1.1, 1.1);
+}
 
-.dogIn{
-    display: flex;
-    background-color: green;
-    border-radius: 20px;
-    justify-content: center;
-    padding: 5px;
-    color: white;
-  }
+.registerList {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
 
-.dogOut{
-    display: flex;
-    background-color: red;
-    border-radius: 20px;
-    justify-content: center;
-    padding: 5px;
-    color: white;
-  }
-.registerTitle{
-  /* display: flex;
-  justify-content: center; */
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dogName {
+  display: flex;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  justify-content: center;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.dogIn {
+  display: flex;
+  background-color: green;
+  border-radius: 20px;
+  justify-content: center;
+  padding: 5px;
+  color: white;
+}
+
+.dogOut {
+  display: flex;
+  background-color: red;
+  border-radius: 20px;
+  justify-content: center;
+  padding: 5px;
+  color: white;
+}
+
+.registerTitle {
   padding: 3px;
   font-size: 30px;
   background-color: white;
@@ -75,7 +82,8 @@
   border-radius: 25px;
 
 }
-.statusButton{
+
+.statusButton {
   display: flex;
   justify-content: center;
   font-size: medium;
@@ -84,11 +92,11 @@
   padding: 5px;
 }
 
-.statusButton:hover{
+.statusButton:hover {
   background-color: green;
   transform: scale(1.1);
   color: white;
- 
+
 }
 
 .divStatusButton {
@@ -97,12 +105,8 @@
   align-items: center;
 }
 
-.registerTitleDiv{
+.registerTitleDiv {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-
-  
-  
