@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/K9-Hotel/static/css/main.965bc4a0.css",
-    "main.js": "/K9-Hotel/static/js/main.accb3cb4.js",
+    "main.css": "/K9-Hotel/static/css/main.19a8dd79.css",
+    "main.js": "/K9-Hotel/static/js/main.d7009aae.js",
     "static/js/787.48618816.chunk.js": "/K9-Hotel/static/js/787.48618816.chunk.js",
-    "static/media/logo.png": "/K9-Hotel/static/media/logo.629c411c1a94a3d1028e.png",
+    "static/media/cube1.png": "/K9-Hotel/static/media/cube1.67043dc0859a3039e4d5.png",
+    "static/media/cube2.png": "/K9-Hotel/static/media/cube2.c82f41090c27d0ad6b96.png",
+    "static/media/cube3.jpg": "/K9-Hotel/static/media/cube3.78c1ecab1dc8b96a194f.jpg",
     "static/media/wallpaper.jpg": "/K9-Hotel/static/media/wallpaper.8d2704f35f35cc4bb0e5.jpg",
     "static/media/bone.png": "/K9-Hotel/static/media/bone.070d78f59d9828dfb2c0.png",
     "index.html": "/K9-Hotel/index.html",
-    "main.965bc4a0.css.map": "/K9-Hotel/static/css/main.965bc4a0.css.map",
-    "main.accb3cb4.js.map": "/K9-Hotel/static/js/main.accb3cb4.js.map",
+    "main.19a8dd79.css.map": "/K9-Hotel/static/css/main.19a8dd79.css.map",
+    "main.d7009aae.js.map": "/K9-Hotel/static/js/main.d7009aae.js.map",
     "787.48618816.chunk.js.map": "/K9-Hotel/static/js/787.48618816.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.965bc4a0.css",
-    "static/js/main.accb3cb4.js"
+    "static/css/main.19a8dd79.css",
+    "static/js/main.d7009aae.js"
   ]
 }
